@@ -5,6 +5,6 @@ Implemets Kabsch's algorithm for calculating Rotation and Translation of one set
 
 The transformation matrix obtained is then used on the rest of the points(belonging to A) so that the cloud sets can be superimposed. 
 
-Both the input matrices need atleast 3 independent points. 
+Both the input matrices need atleast 3 non-degenerate points. 
 
 Adapted from: http://nghiaho.com/?page_id=671
